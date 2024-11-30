@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(141, 141, 246);
+}
+
+.main-container {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Courier New";
+}
+
+.courier-new {
+  font-family: "Courier New";
+}
+
+.courier {
+  font-family: Courier;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.system-ui {
+  font-family: system-ui;
+}
+
+.apple-system {
+  font-family: -apple-system;
+}
+
+.ubuntu {
+  font-family: Ubuntu;
+}
+
+.cantarell {
+  font-family: Cantarell;
+}
+
+.open-sans {
+  font-family: "Open Sans";
+}
+
+.helvetica-neue {
+  font-family: "Helvetica Neue";
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.verdana {
+  font-family: Verdana;
+}
+
+.geneva {
+  font-family: Geneva;
+}
+
+.blinkmacsystemfont {
+  font-family: BlinkMacSystemFont;
+}
+
+.segoe-ui {
+  font-family: "Segoe UI";
+}
+
+.roboto {
+  font-family: Roboto;
+}
+
+.oxygen {
+  font-family: Oxygen;
+}
+
+.tahoma {
+  font-family: Tahoma;
+}
+
+.impact {
+  font-family: Impact;
+}
+
+.haettenschweiler {
+  font-family: Haettenschweiler;
+}
+
+.arial-narrow-bold {
+  font-family: "Arial Narrow Bold";
+}
+
+.georgia {
+  font-family: Georgia;
+}
+
+.arial {
+  font-family: Arial;
+}
+
+.cambria {
+  font-family: Cambria;
+}
+
+.trebuchet-ms {
+  font-family: "Trebuchet MS";
+}
+
+.lucida-sans-regular {
+  font-family: "Lucida Sans Regular";
+}
+
+.gill-sans {
+  font-family: "Gill Sans";
+}
+
+.franklin-gothic-medium {
+  font-family: "Franklin Gothic Medium";
+}
+
+.times-new-roman {
+  font-family: "Times New Roman";
+}
+
+.times {
+  font-family: Times;
+}
+
+.serif {
+  font-family: serif;
+}
+
+.helvetica {
+  font-family: Helvetica;
+}
+
+.cochin {
+  font-family: Cochin;
+}
+
+.lucida-sans-unicode {
+  font-family: "Lucida Sans Unicode";
+}
+
+.lucida-grande {
+  font-family: "Lucida Grande";
+}
+
+.lucida-sans {
+  font-family: "Lucida Sans";
+}
+
+.gill-sans-mt {
+  font-family: "Gill Sans MT";
+}
+
+.calibri {
+  font-family: Calibri;
+}
+
+.arial-narrow {
+  font-family: "Arial Narrow";
+}
+
+#text {
+  margin: 10px;
+  font-size: 20px;
+}
+
+#select {
+  margin: 10px;
+}
+
+#input {
+  text-align: center;
+}
+
+.text-area {
+  font-size: 20px !important;
+  padding: 2%;
+  resize: none;
+  width: 50%;
+  height: auto;
+  outline: none;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 228, 76);
+  box-shadow: 
+    rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 2%;
+}
+
+select {
+  margin: 20px;
+  width: 56%;
+  padding-inline: 10px;
+  text-align: center;
+  font-size: 20px;
+  outline: none;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 228, 76, 0.771);
+  font-weight: bolder;
+}
+
+.texting {
+  margin: 10px;
+}
+
+.result-rtl {
+  direction: rtl !important;
+}
+
+.result-ltr {
+  direction: ltr !important;
+} 
